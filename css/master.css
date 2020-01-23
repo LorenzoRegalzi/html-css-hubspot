@@ -63,3 +63,42 @@
     height: 100px;
     background-color: #3ecdbb;
 }
+.principal-2{
+    max-width: 100vw;
+    -height: 100px;
+    background-color: #f5f8fa;
+    border: none;
+}
+.principal-2 main{
+    position: relative;
+    margin: 0 auto;
+    width: 75vw;
+    height: 800px;
+    background-color: #f5f8fa;
+}
+.dati{
+    max-width: 100vw;
+    -height: 100px;
+    background-color: #00b0b1;
+    border: none;
+}
+.dati main{
+    position: relative;
+    margin: 0 auto;
+    width: 75vw;
+    height: 800px;
+    background-color: #00b0b1;
+}
+.finale{
+    max-width: 100vw;
+    -height: 100px;
+    background-color: #425b76;
+    border: none;
+}
+.finale main{
+    position: relative;
+    margin: 0 auto;
+    width: 75vw;
+    height: 800px;
+    background-color:#425b76;
+}
