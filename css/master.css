@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    max-width: 100vw;
+    height: 400px;
+    background-color: red;
+    border: 1px solid black;
+}
+.navbar{
+    max-width: 100vw;
+    height: 100px;
+    background-color: #ffffff;
+    border: none;
+}
+.navbar nav{
+    position: relative;
+    margin: 0 auto;
+    width: 75vw;
+    height: 100px;
+    background-color: #ffffff;
+}
+.advisor{
+    max-width: 100vw;
+    height: 100px;
+    background-color: #425b76;
+    border: none;
+}
+.advisor nav{
+    position: relative;
+    margin: 0 auto;
+    width: 75vw;
+    height: 100px;
+    background-color: #425b76;
+}
