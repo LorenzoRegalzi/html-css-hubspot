@@ -97,6 +97,9 @@ nav img{
 
 
 /* FINE SECONDO CONTENUTO */
+
+
+/* INIZIO SECONDO */
 .principal{
     max-width: 100vw;
     -height: 100px;
@@ -107,9 +110,63 @@ nav img{
     position: relative;
     margin: 0 auto;
     width: 75vw;
-    height: 400px;
+    height: 600px;
     background-color: #fff3ee;
 }
+.principal-titolo{
+    width: 400px;
+    height: 150px;
+    position: relative;
+    top: 90px;
+}
+.principal-titolo h1{
+    font-size: 55px;
+    color:#33475b;
+}
+.principal-testo{
+    width: 380px;
+    height: 100px;
+    position: relative;
+    top: 90px;
+    margin-bottom: 8px;
+}
+.principal-testo small{
+    position: relative;
+    top: 30px;
+    font-size: 15px;
+}
+.principal #button{
+    width: 220px;
+    height: 80px;
+    position: relative;
+    top: 90px;
+    border-radius: 5%;
+    border-style: none;
+    background-color: #ff7a59;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+}
+.principal-end{
+    width: 150px;
+    height: 50px;
+    position: relative;
+    top: 90px;
+}
+.principal-end h5{
+    color:#33475b;
+    font-size: 10px;
+    position: relative;
+    top: 20px;
+}
+
+
+
+
+
+/* FINE SECONDO */
+
+
 .spazio{
     max-width: 100vw;
     -height: 100px;
