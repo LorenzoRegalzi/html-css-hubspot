@@ -439,7 +439,6 @@ float: left;
     margin: 0 auto;
 }
 .tabella{
-    background-color: red;
     width: 1000px;
     height:360px;
     position: relative;
@@ -448,15 +447,51 @@ float: left;
     top: 400px;
 }
 .tabella-content{
-    background-color: yellow;
-    border: 1px solid black;
+    border: 1px solid #ffffff;
     width: 250px;
     height: 180px;
     float: left;
+    text-align: center;
+}
+.tabella-content img{
+    top: 30px;
+    position: relative;
+}
+.tabella-content h2{
+    position: relative;
+    top: 50px;
+    font-size: 40px;
+}
+.tabella-content p{
+    position: relative;
+    top:50px;
 }
 
 
 
+
+#uno{
+    border-left: none;
+    border-top: none;
+}
+#due{
+    border-top: none;
+}
+#tre{
+    border-right: none;
+    border-top: none;
+}
+#quattro{
+    border-left: none;
+    border-bottom: none;
+}
+#cinque{
+    border-bottom: none;
+}
+#sei{
+    border-right: none;
+    border-bottom: none;
+}
 
 
 
