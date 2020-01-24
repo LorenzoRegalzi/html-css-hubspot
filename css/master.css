@@ -223,11 +223,78 @@ nav img{
 .content-primo{
     background-color: #ffffff;
     width: 100%;
-    height: 200px;
+    height: 250px;
     padding: 10px;
     margin-bottom: 4%;
     border-radius:2%;
+    text-align: center;
 }
+.content-primo img{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    top: 20px;
+    float: left;
+    left: 120px;
+}
+
+.content-primo button{
+width: 120px;
+height: 40px;
+position: relative;
+top: 170px;
+border-radius: 5%;
+border-style: none;
+background-color: #ff7a59;
+color: #ffffff;
+font-size: 15px;
+cursor: pointer;
+float: left;
+}
+.content-primo h2{
+    top: 20px;
+    position: relative;
+    float: left;
+    left: 10%;
+}
+.content-primo p{
+    top: 69px;
+    position: relative;
+    text-align: initial;
+    float: left;
+    right: 74px;
+    width: 462px;
+}
+.content-primo h4{
+
+    position: relative;
+    text-align: initial;
+    left: 88px;
+    top: 90px;
+}
+.content-primo h4 hr{
+    color: #eff2f6;
+    position: relative;
+    top: -8px;
+    left: 256px;
+    width: 378px;
+}
+.content-primo ul{
+    top: 100px;
+    position: relative;
+    text-align: initial;
+    left: 22%;
+    list-style: none;
+}
+.content-primo ul li{
+    float: left;
+    line-height: 60px;
+    margin-left: 26px;
+}
+
+
+
+
 .content-secondo{
     background-color: #ffffff;
     width: 30%;
@@ -339,9 +406,6 @@ nav img{
     font-size: 15px;
     cursor: pointer;
 }
-
-
-
 
 /* FINE TERZO */
 
