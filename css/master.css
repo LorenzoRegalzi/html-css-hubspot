@@ -160,12 +160,8 @@ nav img{
     top: 20px;
 }
 
-
-
-
-
 /* FINE SECONDO */
-
+/* BARRA*/
 
 .spazio{
     max-width: 100vw;
@@ -181,6 +177,9 @@ nav img{
     height: 100px;
     background-color: #3ecdbb;
 }
+
+/* FINE BARRA */
+/* INIZIO TERZO */
 .principal-2{
     max-width: 100vw;
     -height: 100px;
@@ -191,15 +190,168 @@ nav img{
     position: relative;
     margin: 0 auto;
     width: 75vw;
-    height: 800px;
+    height: 1600px;
     background-color: #f5f8fa;
+    text-align: center;
 }
+.principal-2 img{
+    position: relative;
+    width: 250px;
+    top: 130px;
+}
+.principal-2 #titolo{
+    position: relative;
+    font-size: 25px;
+    top: 130px;
+}
+.principal-2 #descrizione{
+    position: relative;
+    font-size: 25px;
+    top: 150px;
+}
+.content{
+    background-color: #f5f8fa;
+    width: 100%;
+    height: 900px;
+    position: relative;
+    top: 200px;
+    margin-bottom: 20px;
+    padding-left: 8%;
+    padding-right: 8%;
+    border: none;
+}
+.content-primo{
+    background-color: #ffffff;
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    margin-bottom: 4%;
+    border-radius:2%;
+}
+.content-secondo{
+    background-color: #ffffff;
+    width: 30%;
+    height: 650px;
+    padding: 10px;
+    float: left;
+    border-radius:2%;
+    text-align: center;
+}
+.content-secondo img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 25px;
+}
+.content-secondo h2{
+    top: 40px;
+    position: relative;
+}
+.content-secondo p{
+    top: 60px;
+    position: relative;
+    text-align: initial;
+}
+.content-secondo hr{
+    color: #eff2f6;
+    top: 90px;
+    position: relative;
+}
+.content-secondo h4{
+    top: 120px;
+    position: relative;
+}
+.content-secondo ul{
+    top: 150px;
+    position: relative;
+    text-align: initial;
+    left: 10%;
+    list-style: none;
+}
+.content-secondo button{
+    width: 120px;
+    height: 40px;
+    position: relative;
+    top: 190px;
+    border-radius: 5%;
+    border-style: none;
+    background-color: #ff7a59;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+}
+.content-inmezzo{
+    background-color: #f5f8fa;
+    width: 40%;
+    height: 650px;
+    padding: 10px;
+    float: left;
+    padding-top: 0;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+#centrale{
+    background-color: #ffffff;
+    height: 650px;
+    padding: 10px;
+    border-radius: 2%;
+}
+#centrale img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 25px;
+}
+#centrale h2{
+    top: 40px;
+    position: relative;
+}
+#centrale p{
+    top: 60px;
+    position: relative;
+    text-align: initial;
+}
+#centrale hr{
+    color: #eff2f6;
+    top: 90px;
+    position: relative;
+}
+#centrale h4{
+    top: 120px;
+    position: relative;
+}
+#centrale ul{
+    top: 150px;
+    position: relative;
+    text-align: initial;
+    left: 10%;
+    list-style: none;
+}
+#centrale button{
+    width: 120px;
+    height: 40px;
+    position: relative;
+    top: 190px;
+    border-radius: 5%;
+    border-style: none;
+    background-color: #ff7a59;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+
+
+/* FINE TERZO */
+
 .dati{
     max-width: 100vw;
     -height: 100px;
     background-color: #00b0b1;
     border: none;
 }
+
 .dati main{
     position: relative;
     margin: 0 auto;
