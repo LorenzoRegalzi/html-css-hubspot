@@ -4,26 +4,24 @@
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
-.clearfix::after{
+.clearfix::after {
     content: '';
     display: table;
     clear: both;
 }
-
 .content {
     max-width: 100vw;
     height: 400px;
     background-color: red;
     border: 1px solid black;
 }
-.navfix{
+.navfix {
     max-width: 100vw;
     height: 75px;
     background-color: red;
     border: none;
-
 }
-.navfixdiv{
+.navfixdiv {
     position: fixed;
     margin: 0 auto;
     width: 100vw;
@@ -32,11 +30,11 @@
     z-index: 99;
     border-bottom: 1px solid #e0e6ed;
 }
-.navfixdiv i{
+.navfixdiv i {
     color: #33475b;
     cursor: pointer;
 }
-.navfixdiv nav{
+.navfixdiv nav {
     position: relative;
     margin: 0 auto;
     width: 75vw;
@@ -46,7 +44,7 @@
     padding-top: 15px;
     padding-bottom: 15px
 }
-.navfixdiv nav .lingua{
+.navfixdiv nav .lingua {
 
     width: 120px;
     height: 45px;
@@ -54,7 +52,7 @@
     float: left;
     cursor: pointer;
     }
-.navfixdiv nav .contatti{
+.navfixdiv nav .contatti {
 
     width: 90px;
     height: 45px;
@@ -63,21 +61,22 @@
     color: #33475b;
     cursor: pointer;
 }
-
-.navfixdiv nav .lingua span{
+.navfixdiv nav .lingua span {
     border-right: 2px solid #cbd6e2;
     padding-right: 20px;
     color: #33475b;
     margin-left: 8px;
 }
-.navfixdiv nav .login{
-
+.navfixdiv nav .lingua span i {
+    color:#7c98b6;
+}
+.navfixdiv nav .login {
     width: 90px;
     height: 45px;
     padding-top: 4px;
     float: right;
 }
-.navfixdiv nav .login button{
+.navfixdiv nav .login button {
     width: 95px;
     height: 35px;
     border-radius: 5%;
@@ -87,14 +86,17 @@
     font-size: 10px;
     cursor: pointer;
 }
-.navfixdiv nav .gethub{
+.navfixdiv nav .gethub {
     margin-left: 8px;
     width: 105px;
     height: 45px;
     padding-top: 4px;
     float: right;
 }
-.navfixdiv nav .gethub button{
+.navfixdiv nav .gethub i {
+    color:#19aec5;
+}
+.navfixdiv nav .gethub button {
     width: 65px;
     height: 35px;
     border-radius: 5%;
@@ -106,16 +108,14 @@
     border: 1px solid;
     margin-left: 8px;
 }
-
-
-.navbar{
+.navbar {
     max-width: 100vw;
     -height: 100px;
     background-color: #ffffff;
     border: none;
     -text-transform: uppercase;
 }
-.navbar nav{
+.navbar nav {
     position: relative;
     margin: 0 auto;
     width: 75vw;
@@ -123,7 +123,7 @@
     background-color: #ffffff;
 }
 /* PRIMO CONTENUTO */
-nav img{
+nav img {
     position: relative;
     transform: translateY(-50%);
     top: 50%;
@@ -136,33 +136,37 @@ nav img{
     transform: translateY(-50%);
     top: 50%;
 }
-#navbar li{
+#navbar li {
     margin: 0 18px;
     font-size: 15px;
     list-style: none;
     float: left;
 }
-#navbar li a{
+#navbar li a {
     color: #33475b;
     text-decoration: none;
     margin: 15px;
 }
+#navbar li a i {
+    color: #7c98b6;
+    margin-left: 4px;
+}
 /* FINE PRIMO CONTENUTO */
 /* INIZIO SECONDO CONTENUTO */
-.advisor{
+.advisor {
     max-width: 100vw;
     -height: 100px;
     background-color: #425b76;
     border: none;
 }
-.advisor-avviso{
+.advisor-avviso {
     position: relative;
     margin: 0 auto;
     width: 75vw;
     height: 90px;
     background-color: #425b76;
 }
-.advisor-avviso #testo p{
+.advisor-avviso #testo p {
     color: white;
     float: left;
     width: 80%;
@@ -171,8 +175,7 @@ nav img{
     top: 45px;
     left: 20px;
 }
-
-.advisor-avviso #bottone{
+.advisor-avviso #bottone {
     display: inline-block;
     float: right;
     width: 100px;
@@ -186,49 +189,43 @@ nav img{
     color: #425b76;
     font-weight: bold;
     font-size: 14px;
-
+    cursor: pointer;
 }
-
-
-
 /* FINE SECONDO CONTENUTO */
-
-
 /* INIZIO SECONDO */
-.principal{
+.principal {
     max-width: 100vw;
     -height: 100px;
     background-color: #fff3ee;
     border: none;
 }
-.principal main{
+.principal main {
     position: relative;
     margin: 0 auto;
     width: 75vw;
     height: 600px;
     background-color: #fff3ee;
 }
-.principal img{
+.principal img {
     position: absolute;
-    width: 775px;
+    width: 885px;
     height: 108%;
-    left: 356px;
+    left: 372px;
     top: 13px;
     z-index: 2;
 }
-
-.principal-titolo{
+.principal-titolo {
     width: 400px;
     height: 150px;
     position: relative;
     top: 90px;
     z-index: 3;
 }
-.principal-titolo h1{
+.principal-titolo h1 {
     font-size: 55px;
     color:#33475b;
 }
-.principal-testo{
+.principal-testo {
     width: 380px;
     height: 100px;
     position: relative;
@@ -236,13 +233,13 @@ nav img{
     margin-bottom: 8px;
     color:#33475b;
 }
-.principal-testo small{
+.principal-testo small {
     position: relative;
     top: 30px;
     font-size: 15px;
     color:#33475b;
 }
-.principal #button{
+.principal #button {
     width: 220px;
     height: 80px;
     position: relative;
@@ -254,65 +251,62 @@ nav img{
     font-size: 15px;
     cursor: pointer;
 }
-.principal-end{
+.principal-end {
     width: 150px;
     height: 50px;
     position: relative;
     top: 90px;
 }
-.principal-end p{
+.principal-end p {
     color:#33475b;
     font-size: 10px;
     position: relative;
     top: 20px;
 }
-
 /* FINE SECONDO */
 /* BARRA*/
-
-.spazio{
+.spazio {
     max-width: 100vw;
     -height: 100px;
     background-color: #3ecdbb;
     border-top: 4px solid #2d3e50;
     border-bottom: 4px solid #2d3e50;
 }
-.spazio section{
+.spazio section {
     position: relative;
     margin: 0 auto;
     width: 75vw;
     height: 100px;
     background-color: #3ecdbb;
 }
-
 /* FINE BARRA */
 /* INIZIO TERZO */
-.principal-2{
+.principal-2 {
     max-width: 100vw;
     -height: 100px;
     background-color: #f5f8fa;
     border: none;
 }
-.principal-2 main{
+.principal-2 main {
     position: relative;
     margin: 0 auto;
     width: 75vw;
-    height: 1600px;
+    height: 1500px;
     background-color: #f5f8fa;
     text-align: center;
 }
-.principal-2 img{
+.principal-2 img {
     position: relative;
     width: 250px;
     top: 130px;
 }
-.principal-2 #titolo{
+.principal-2 #titolo {
     position: relative;
     font-size: 25px;
     top: 130px;
     color:#33475b;
 }
-.principal-2 #descrizione{
+.principal-2 #descrizione {
     position: relative;
     font-size: 15px;
     top: 150px;
@@ -320,11 +314,11 @@ nav img{
     margin: 0 auto;
     color:#33475b;
 }
-.content i{
+.content i {
     color: #ff7a59;
     margin-right: 5px;
 }
-.content{
+.content {
     background-color: #f5f8fa;
     width: 100%;
     height: 900px;
@@ -336,7 +330,7 @@ nav img{
     border: none;
     color: #33475b;
 }
-.content-primo{
+.content-primo {
     background-color: #ffffff;
     width: 100%;
     height: 250px;
@@ -346,7 +340,7 @@ nav img{
     text-align: center;
     color: #33475b;
 }
-.content-primo img{
+.content-primo img {
     width: 120px;
     height: 120px;
     position: relative;
@@ -354,8 +348,7 @@ nav img{
     float: left;
     left: 120px;
 }
-
-.content-primo button{
+.content-primo button {
 width: 120px;
 height: 40px;
 position: relative;
@@ -368,49 +361,49 @@ font-size: 15px;
 cursor: pointer;
 float: left;
 }
-.content-primo h2{
+.content-primo h2 {
     top: 20px;
     position: relative;
     float: left;
     left: 10%;
 }
-.content-primo p{
-    top: 32px;
+.content-primo p {
+    top: 64px;
     position: relative;
     text-align: initial;
     float: left;
-    left: 79px;
+    right: 72px;
     width: 462px;
     font-size: 12px;
 }
-.content-primo h4{
+.content-primo h4 {
     position: relative;
     text-align: initial;
-    right: 82px;
-    top: 136px;
-    font-size: 12px;
-    font-weight: initial;
+    left: 91px;
+    top: 99px;
+    font-size: 15px;
 }
-.content-primo h4 hr{
-    color:#e0e6ed;
+.content-primo h4 hr {
+    color:
+    #e0e6ed;
     position: relative;
-    top: -6px;
-    left: 96px;
-    width: 378px;
+    top: -8px;
+    left: 246px;
+    width: 375px;
 }
-.content-primo ul{
+.content-primo ul {
     top: 100px;
     position: relative;
     text-align: initial;
     left: 22%;
     list-style: none;
 }
-.content-primo ul li{
+.content-primo ul li {
     float: left;
     line-height: 60px;
     margin-left: 26px;
 }
-.content-secondo{
+.content-secondo {
     background-color: #ffffff;
     width: 30%;
     height: 650px;
@@ -419,38 +412,38 @@ float: left;
     border-radius:2%;
     text-align: center;
 }
-.content-secondo img{
+.content-secondo img {
     width: 150px;
     height: 150px;
     position: relative;
     top: 25px;
 }
-.content-secondo h2{
+.content-secondo h2 {
     top: 40px;
     position: relative;
 }
-.content-secondo p{
+.content-secondo p {
     top: 60px;
     position: relative;
     text-align: initial;
 }
-.content-secondo hr{
+.content-secondo hr {
     color: #e0e6ed;
     top: 90px;
     position: relative;
 }
-.content-secondo h4{
+.content-secondo h4 {
     top: 120px;
     position: relative;
 }
-.content-secondo ul{
+.content-secondo ul {
     top: 150px;
     position: relative;
     text-align: initial;
     left: 10%;
     list-style: none;
 }
-.content-secondo button{
+.content-secondo button {
     width: 120px;
     height: 40px;
     position: relative;
@@ -462,7 +455,7 @@ float: left;
     font-size: 15px;
     cursor: pointer;
 }
-.content-inmezzo{
+.content-inmezzo {
     background-color: #f5f8fa;
     width: 40%;
     height: 650px;
@@ -472,44 +465,44 @@ float: left;
     padding-left: 45px;
     padding-right: 45px;
 }
-#centrale{
+#centrale {
     background-color: #ffffff;
     height: 650px;
     padding: 10px;
     border-radius: 2%;
 }
-#centrale img{
+#centrale img {
     width: 150px;
     height: 150px;
     position: relative;
     top: 25px;
 }
-#centrale h2{
+#centrale h2 {
     top: 40px;
     position: relative;
 }
-#centrale p{
+#centrale p {
     top: 60px;
     position: relative;
     text-align: initial;
 }
-#centrale hr{
+#centrale hr {
     color: #e0e6ed;
     top: 90px;
     position: relative;
 }
-#centrale h4{
+#centrale h4 {
     top: 120px;
     position: relative;
 }
-#centrale ul{
+#centrale ul {
     top: 150px;
     position: relative;
     text-align: initial;
     left: 10%;
     list-style: none;
 }
-#centrale button{
+#centrale button {
     width: 120px;
     height: 40px;
     position: relative;
@@ -521,17 +514,15 @@ float: left;
     font-size: 15px;
     cursor: pointer;
 }
-
 /* FINE TERZO */
 /* INIZIO QUARTO BLOCCO */
-.dati{
+.dati {
     max-width: 100vw;
     -height: 100px;
     background-color: #00b0b1;
     border: none;
 }
-
-.dati main{
+.dati main {
     position: relative;
     margin: 0 auto;
     width: 75vw;
@@ -539,13 +530,13 @@ float: left;
     background-color: #00b0b1;
     text-align: center;
 }
-.dati #titolo{
+.dati #titolo {
     position: relative;
     font-size: 25px;
     top: 130px;
     color: white;
 }
-.dati #descrizione{
+.dati #descrizione {
     position: relative;
     font-size: 25px;
     top: 150px;
@@ -553,11 +544,11 @@ float: left;
     width: 60%;
     margin: auto;
 }
-#titolo h3{
+#titolo h3 {
     width: 55%;
     margin: 0 auto;
 }
-.tabella{
+.tabella {
     width: 1000px;
     height:360px;
     position: relative;
@@ -565,72 +556,58 @@ float: left;
     left: 50%;
     top: 400px;
 }
-.tabella-content{
+.tabella-content {
     border: 1px solid #ffffff;
     width: 250px;
     height: 180px;
     float: left;
     text-align: center;
 }
-.tabella-content img{
+.tabella-content img {
     top: 30px;
     position: relative;
 }
-.tabella-content h2{
+.tabella-content h2 {
     position: relative;
     top: 50px;
     font-size: 40px;
     color: #ffffff;
 }
-.tabella-content p{
+.tabella-content p {
     position: relative;
     top:50px;
     color: #ffffff
 }
-
-
-
-
-#uno{
+#uno {
     border-left: none;
     border-top: none;
 }
-#due{
+#due {
     border-top: none;
 }
-#tre{
+#tre {
     border-right: none;
     border-top: none;
 }
-#quattro{
+#quattro {
     border-left: none;
     border-bottom: none;
 }
-#cinque{
+#cinque {
     border-bottom: none;
 }
-#sei{
+#sei {
     border-right: none;
     border-bottom: none;
 }
-
-
-
-
-
-
-
-
-
-
 /* FINE TERZO BLOCCO     */
-.principal-3{
+.principal-3 {
     max-width: 100vw;
     -height: 100px;
     background-color: #f5f8fa;
     border: none;
 }
-.principal-3 main{
+.principal-3 main {
     position: relative;
     margin: 0 auto;
     width: 75vw;
@@ -638,7 +615,7 @@ float: left;
     background-color: #f5f8fa;
     text-align: center;
 }
-.principal-3content{
+.principal-3content {
     width: 330px;
     height: 190px;
     left: 5%;
@@ -649,63 +626,61 @@ float: left;
     line-height: 34px;
     color: #33475b;
 }
-.principal-3content main img{
+.principal-3content main img {
     float: right;
 }
-.principal-3marche{
+.principal-3marche {
     width: 500px;
     height: 200px;
     float: right;
     position: relative;
     bottom: 74px;
 }
-
-#marche{
+#marche {
     width: 25%;
     height: 100px;
     float: left;
     padding: 20px;
 }
-.principal-3marche #marche img{
+.principal-3marche #marche img {
     width: 100px;
 }
-
 /* FINE TERZO BLOCCO */
 /* INIZIO QUARTO BLOCCO */
-.principal4{
+.principal4 {
 width: 100%;
 height: 500px;
 position: relative;
 top: 204px;
 text-align: left;
 }
-.principal4-titolo{
+.principal4-titolo {
 width: 400px;
 height: 150px;
 position: relative;
 top: 90px;
 }
-.principal4-titolo h1{
+.principal4-titolo h1 {
 font-size: 31px;
 color:#33475b;
 text-align: left;
 position: relative;
 bottom: 32px;
 }
-.principal4-testo{
+.principal4-testo {
 width: 380px;
 height: 100px;
 position: relative;
 top: 90px;
 margin-bottom: 8px;
 }
-.principal4-testo small{
+.principal4-testo small {
 position: relative;
 top: -80px;
 font-size: 15px;
 color:#33475b;
 }
-.principal4 #button{
+.principal4 #button {
 width: 220px;
 height: 80px;
 position: relative;
@@ -717,13 +692,13 @@ font-size: 15px;
 cursor: pointer;
 float: left;
 }
-.principal4-end{
+.principal4-end {
 width: 150px;
 height: 50px;
 position: relative;
 top: 90px;
 }
-.principal4-end h5{
+.principal4-end h5 {
     color:#33475b;
     font-size: 10px;
     position: relative;
@@ -733,52 +708,51 @@ top: 90px;
     float: left;
     font-weight: inherit;
 }
-.principal4 img{
+.principal4 img {
     width: 350px;
     position: relative;
     bottom: 309px;
     float: right;
 }
-
 /* FINE QUARTO BLOCCO */
 /* INIZIO QUINTO BLOCCO */
-.finale{
+.finale {
     max-width: 100vw;
     -height: 100px;
     background-color: #33475b;
     border: none;
 }
-.finale main{
+.finale main {
     position: relative;
     margin: 0 auto;
     width: 75vw;
-    height: 800px;
+    height: 650px;
     background-color:#33475b;
 }
-.liste{
+.liste {
 
     width: 100%;
     height: 250px;
 }
-.liste ul{
+.liste ul {
     color: #c6d2dd;
     position: relative;
     text-align: left;
     list-style: none;
     float: left;
-    margin-right: 25px;
+    margin-right: 53px;
     font-size: 17px;
     top: 72px;
     line-height: 30px;
 }
-.liste ul li a{
+.liste ul li a {
     color: #cbd6e2;;
     text-decoration: none;
 }
-.liste ul li a:hover{
+.liste ul li a:hover {
     color: #7fd1de;
 }
-.tasto{
+.tasto {
     width: 20%;
     height: 100px;
     position: relative;
@@ -786,7 +760,7 @@ top: 90px;
     right: 54px;
     top: 10px;
 }
-.tasto button{
+.tasto button {
     width: 150px;
     height: 30px;
     border-radius: 5%;
@@ -796,34 +770,31 @@ top: 90px;
     font-size: 11px;
     cursor: pointer;
 }
-.tasto-social{
+.tasto-social {
     width: 100%;
     height: 30%;
     margin-top: 15px;
-
 }
-.tasto-social i{
+.tasto-social i {
     color:#cbd6e2;
     width: 22%;
     font-size: 26px;
     cursor: pointer;
 }
-.tasto-social i:hover{
+.tasto-social i:hover {
     color: #7fd1de;
 }
-.footer{
-
+.footer {
     width: 100%;
     height: 150px;
     position: relative;
     top: 150px;
 }
-.sceltalingue{
+.sceltalingue {
     width: 100%;
     height: 50%;
 }
-
-#lingue ul{
+#lingue ul {
     margin: 0 5px;
     font-size: 15px;
     list-style: none;
@@ -832,38 +803,38 @@ top: 90px;
     transform: translate(-50%);
     left: 50%;
 }
-#lingue li{
+#lingue li {
     margin: 0 5px;
     font-size: 15px;
     list-style: none;
     float: left;
 }
-#lingue li a{
+#lingue li a {
     color: #cbd6e2;;
     text-decoration: none;
     margin: 15px;
 }
-#lingue li a:hover{
+#lingue li a:hover {
     color: #7fd1de;
 }
-.footer hr{
+.footer hr {
     position: relative;
     top: 50%;
     width: 100%;
     color: #cbd6e2;
 }
-.pie{
+.pie {
     width: 100%;
     height: 50%;
 }
-.pie #logo{
+.pie #logo {
     width: 175px;
     height: 100%;
     position: relative;
     float: left;
     padding-top: 30px;
 }
-.pie #copiright{
+.pie #copiright {
     width: 260px;
     height: 100%;
     float: right;
@@ -871,29 +842,28 @@ top: 90px;
     position: relative;
     left: 20%;
 }
-.pie #logo p{
+.pie #logo p {
     font-size: 10px;
     margin-top: 10px;
     color: #cbd6e2;
 }
-#copiright ul{
-    margin: 0 5px;
-    font-size: 15px;
-    list-style: none;
-    float: left;
-
-}
-#copiright li{
+#copiright ul {
     margin: 0 5px;
     font-size: 15px;
     list-style: none;
     float: left;
 }
-#copiright li a{
+#copiright li {
+    margin: 0 5px;
+    font-size: 15px;
+    list-style: none;
+    float: left;
+}
+#copiright li a {
     color: #cbd6e2;;
     text-decoration: none;
     margin: 15px;
 }
-#copiright li a:hover{
+#copiright li a:hover {
     color: #7fd1de;
 }
