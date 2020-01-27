@@ -34,6 +34,7 @@
 }
 .navfixdiv i{
     color: #33475b;
+    cursor: pointer;
 }
 .navfixdiv nav{
     position: relative;
@@ -51,6 +52,7 @@
     height: 45px;
     padding-top: 10px;
     float: left;
+    cursor: pointer;
     }
 .navfixdiv nav .contatti{
 
@@ -59,6 +61,7 @@
     padding-top: 10px;
     float: left;
     color: #33475b;
+    cursor: pointer;
 }
 
 .navfixdiv nav .lingua span{
@@ -181,6 +184,9 @@ nav img{
     transform: translateY(-50%);
     top: 45px;
     color: #425b76;
+    font-weight: bold;
+    font-size: 14px;
+
 }
 
 
@@ -202,11 +208,21 @@ nav img{
     height: 600px;
     background-color: #fff3ee;
 }
+.principal img{
+    position: absolute;
+    width: 775px;
+    height: 108%;
+    left: 356px;
+    top: 13px;
+    z-index: 2;
+}
+
 .principal-titolo{
     width: 400px;
     height: 150px;
     position: relative;
     top: 90px;
+    z-index: 3;
 }
 .principal-titolo h1{
     font-size: 55px;
@@ -359,25 +375,27 @@ float: left;
     left: 10%;
 }
 .content-primo p{
-    top: 69px;
+    top: 32px;
     position: relative;
     text-align: initial;
     float: left;
-    right: 74px;
+    left: 79px;
     width: 462px;
+    font-size: 12px;
 }
 .content-primo h4{
-
     position: relative;
     text-align: initial;
-    left: 88px;
-    top: 90px;
+    right: 82px;
+    top: 136px;
+    font-size: 12px;
+    font-weight: initial;
 }
 .content-primo h4 hr{
-    color: #e0e6ed;
+    color:#e0e6ed;
     position: relative;
-    top: -8px;
-    left: 256px;
+    top: -6px;
+    left: 96px;
     width: 378px;
 }
 .content-primo ul{
@@ -748,7 +766,7 @@ top: 90px;
     text-align: left;
     list-style: none;
     float: left;
-    margin-right: 53px;
+    margin-right: 25px;
     font-size: 17px;
     top: 72px;
     line-height: 30px;
