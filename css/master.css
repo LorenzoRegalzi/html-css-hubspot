@@ -32,6 +32,9 @@
     z-index: 99;
     border-bottom: 1px solid #e0e6ed;
 }
+.navfixdiv i{
+    color: #33475b;
+}
 .navfixdiv nav{
     position: relative;
     margin: 0 auto;
@@ -44,28 +47,31 @@
 }
 .navfixdiv nav .lingua{
 
-    width: 90px;
+    width: 120px;
     height: 45px;
     padding-top: 10px;
     float: left;
-}
+    }
 .navfixdiv nav .contatti{
 
     width: 90px;
     height: 45px;
     padding-top: 10px;
     float: left;
+    color: #33475b;
 }
 
 .navfixdiv nav .lingua span{
-    border-right: 1px solid #cbd6e2;
+    border-right: 2px solid #cbd6e2;
     padding-right: 20px;
+    color: #33475b;
+    margin-left: 8px;
 }
 .navfixdiv nav .login{
 
     width: 90px;
     height: 45px;
-    padding-top: 10px;
+    padding-top: 4px;
     float: right;
 }
 .navfixdiv nav .login button{
@@ -79,10 +85,10 @@
     cursor: pointer;
 }
 .navfixdiv nav .gethub{
-
-    width: 90px;
+    margin-left: 8px;
+    width: 105px;
     height: 45px;
-    padding-top: 10px;
+    padding-top: 4px;
     float: right;
 }
 .navfixdiv nav .gethub button{
@@ -95,6 +101,7 @@
     font-size: 15px;
     cursor: pointer;
     border: 1px solid;
+    margin-left: 8px;
 }
 
 
@@ -127,7 +134,7 @@ nav img{
     top: 50%;
 }
 #navbar li{
-    margin: 0 5px;
+    margin: 0 18px;
     font-size: 15px;
     list-style: none;
     float: left;
@@ -297,6 +304,10 @@ nav img{
     margin: 0 auto;
     color:#33475b;
 }
+.content i{
+    color: #ff7a59;
+    margin-right: 5px;
+}
 .content{
     background-color: #f5f8fa;
     width: 100%;
@@ -307,6 +318,7 @@ nav img{
     padding-left: 8%;
     padding-right: 8%;
     border: none;
+    color: #33475b;
 }
 .content-primo{
     background-color: #ffffff;
@@ -316,6 +328,7 @@ nav img{
     margin-bottom: 4%;
     border-radius:2%;
     text-align: center;
+    color: #33475b;
 }
 .content-primo img{
     width: 120px;
@@ -361,7 +374,7 @@ float: left;
     top: 90px;
 }
 .content-primo h4 hr{
-    color: #eff2f6;
+    color: #e0e6ed;
     position: relative;
     top: -8px;
     left: 256px;
@@ -404,7 +417,7 @@ float: left;
     text-align: initial;
 }
 .content-secondo hr{
-    color: #eff2f6;
+    color: #e0e6ed;
     top: 90px;
     position: relative;
 }
@@ -463,7 +476,7 @@ float: left;
     text-align: initial;
 }
 #centrale hr{
-    color: #eff2f6;
+    color: #e0e6ed;
     top: 90px;
     position: relative;
 }
@@ -700,6 +713,7 @@ top: 90px;
     width: 307px;
     height: 26px;
     float: left;
+    font-weight: inherit;
 }
 .principal4 img{
     width: 350px;
@@ -763,6 +777,21 @@ top: 90px;
     color: #33475b;
     font-size: 11px;
     cursor: pointer;
+}
+.tasto-social{
+    width: 100%;
+    height: 30%;
+    margin-top: 15px;
+
+}
+.tasto-social i{
+    color:#cbd6e2;
+    width: 22%;
+    font-size: 26px;
+    cursor: pointer;
+}
+.tasto-social i:hover{
+    color: #7fd1de;
 }
 .footer{
 
